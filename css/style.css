@@ -1,0 +1,103 @@
+.custom_nav{
+
+}
+.collapse ul li a{
+    padding: 5px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.collapse ul li a:hover{
+background-color: whitesmoke;
+color: rgb(31, 27, 27);
+border-radius: 5%;
+transform: 3s;
+}
+.m-nav{
+  background-color: rgb(159, 198, 94);
+  color: white;
+}
+.n_img{
+    width: 50px;
+    height: 50px;
+}
+.caro_img{
+    height: 400px;
+}
+.c-prev {
+    left: 85%;
+}
+.c-next {
+    right: 2%;
+   
+}
+.c-prev, .c-next {
+    top: 80%;
+    width: 6%;
+    opacity: 6.5;
+}
+.c-indicators {
+    right: 90%;
+    bottom: 60%;
+    left: -10%;
+    display: block;
+}
+    .c-indicators [data-bs-target] {
+        width: 15px;
+        height: 10px;
+        background-color:red
+    }
+    /* 3rd carosule  */
+    .carosul_img{
+        height: 500px;
+    }
+
+    /* custome slider */
+    .banner{
+        background-image: url(../images/bg5.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .slider{
+        background-color: rgba(1,1,1,5);
+        color: white;
+        padding: 70px;
+    }
+    .slider h1{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .slider p{
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+    .slider button{
+        width: 100px;
+        margin-bottom: 30px;
+    }
+    .slider button:hover{
+        background-color: rgb(130, 130, 197);
+        cursor: pointer;
+    }
+
+    .car-indicators[data-bs-target]{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        margin: 10px;
+        margin-top: 15%;
+    }
+    .carousel-top {
+        top: 75%;
+    }
+
+    /* about us */
+    .a_title{
+        padding: 50px 0;
+    }
+   
+    
+   
+    
